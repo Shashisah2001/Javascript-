@@ -32,3 +32,6 @@ let isLoggedIn = true
 typeof = it's a value
 
  */
+console.log(name)
+console.log(Age)
+console.log(isLoggedIn)
