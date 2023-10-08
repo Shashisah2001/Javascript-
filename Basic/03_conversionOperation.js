@@ -16,3 +16,5 @@ console.log(typeof booleanisLoggedIn);
 let stringNumber = String(isLoggedIn)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+console.log(-true);
