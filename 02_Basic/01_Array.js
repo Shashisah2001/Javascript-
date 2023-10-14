@@ -3,9 +3,11 @@ const myArr = [5,10,15,20,25,30,'shashi']
 //console.log(myArr.includes(5)); // To find the data is available in array or not
 //console.log(myArr.indexOf(15));
 console.log(myArr[1]);
-myArr.push(5);
-myArr.pop();
+myArr.push(12);
+//myArr.pop();
 myArr.unshift(4)
+myArr.shift(29)
+console.log(myArr);
 
 
 //************Method**** */
