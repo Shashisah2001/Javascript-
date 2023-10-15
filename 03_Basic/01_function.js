@@ -46,3 +46,23 @@ function loggedInMessage1(username = "Jatin")  {
     console.log(loggedInMessage1("jaat")); // when username is declared then jaat willbe override
     console.log(loggedInMessage1()); //and when nothing is declared then declared data get fetched
     
+
+    function calculateCartPrice(...num1){
+        return num1
+    }
+
+    console.log(calculateCartPrice(5));
+    console.log(calculateCartPrice(5,500,450));
+
+    const user = {
+          username: "Shashi",
+          Product_Price: 199,
+          Address: "Selaqui-Dehradun",
+    }
+
+    function careObject (anyobject){
+        console.log(`Customer name is ${anyobject.username} and price of the product is ${anyobject.Product_Price} who is  from ${anyobject.Address}`);
+    }
+    careObject(user)
+
+    console.log(user);
