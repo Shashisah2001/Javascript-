@@ -24,6 +24,7 @@ function addTNum(Num1,Num2){// ():-Parameter {}:-Paranthesis
  console.log("Result:-",results); 
   */
 //fn define
+/*
  function loggedInMessage(username){ 
 return `${username} Get logged in linkedin`
 }
@@ -35,7 +36,7 @@ loggedInMessage("shashi")//nothing tobe printed
 //console.log(loggedInMessage()); // given undefined 
 
 //if loop
-function loggedInMessage1(username = "Jatin")  { 
+function loggedInMessage1(username)  { 
     if (username==undefined) {
         console.log("Invalid User");
         return
@@ -44,25 +45,43 @@ function loggedInMessage1(username = "Jatin")  {
     return `${username} Get logged in linkedin`
     }
     console.log(loggedInMessage1("jaat")); // when username is declared then jaat willbe override
-    console.log(loggedInMessage1()); //and when nothing is declared then declared data get fetched
-    
-
+    console.log(loggedInMessage1()); //and when nothing is declared then we will get undefined
+    console.log(loggedInMessage1(""));
+    */
+/*
     function calculateCartPrice(...num1){
         return num1
     }
 
     console.log(calculateCartPrice(5));
     console.log(calculateCartPrice(5,500,450));
-
+*/
+//function define
     const user = {
           username: "Shashi",
           Product_Price: 199,
           Address: "Selaqui-Dehradun",
     }
 
-    function careObject (anyobject){
+    //anyobject means anything we want to ,${}:- is used to concate the data like concatination
+    function userObject (anyobject){
         console.log(`Customer name is ${anyobject.username} and price of the product is ${anyobject.Product_Price} who is  from ${anyobject.Address}`);
     }
-    careObject(user)
+    //function call
+    //userObject(user)
+    //console.log(user); // to get in scope
 
-    console.log(user);
+    userObject({
+        username:"Shashi",
+        Product_Price:199,
+        Address:"Selaqui-Dehradun"
+    })
+
+const totalCartPrice = [200,400,500,1000]
+
+function getCartPrice(particularPrice) {
+    return particularPrice[3]
+}
+console.log(getCartPrice(totalCartPrice));
+console.log(getCartPrice([200,400,500,1000]));
+
