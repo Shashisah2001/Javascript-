@@ -15,9 +15,9 @@ const gameName =  new String("CLash of CLans");
  console.log(gameName.charAt(2));
  console.log(gameName.indexOf('n'));
  console.log(gameName.substring(1,5)); // to find the position of string word
- console.log(gameName.slice(-1,1)); // to use the negative means to count through negative side
+ console.log(gameName.slice(-3,12)); // to use the negative means to count through negative side
  
  const myName = new String("   Jarvis Rao  ")
  console.log(myName);
- console.log(myName.trim()); // to use the negative means to count through negative side
+ console.log(myName.trim()); // means to reduce the line of code to make it relaibility
  
