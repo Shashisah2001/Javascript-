@@ -3,7 +3,7 @@
 
 //Object.create // which is used through constructor and singleton work under the constructor
 //{} inside the para data are object even para is also known for object
-  //******************Boject Literals********************* */
+  //******************Object Literals********************* */
   const mySymbol = Symbol("mykey1");
 const jsUser = {
  Name:"shashi sah", // the declared name is already a 
