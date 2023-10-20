@@ -1,6 +1,6 @@
 "use strict"; // When we use this code  in javascript all the code are treated as new version.(or new js)
 /* alter (3+3) // There occur error coz we're using nodejs not a 
-        browser(But when run that cmd in console we'll get 6 as an output) */
+        browser(But when run that code in console we'll get 6 as an output) */
 
 // We should avoid space in js  | Code relatibility should be high
  console.log(3+3)
