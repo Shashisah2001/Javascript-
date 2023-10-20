@@ -51,4 +51,4 @@ const myFunction = function(){
     console.log("hello Shashi");
 }
 
-console.log();
+console.log(myFunction());
