@@ -2,7 +2,7 @@ const accountId = 200542
 let accountEmail = "shashisah2001@gmail.com"
 var accountPassword = "Sah1234"
 accountCity = "Dehradun"
-let accountState
+let accountState = "UK"
 accountCity = "Selaqui"
 accountEmail = "shahshashi@gmail.com"
 accountPassword = "shah3210"
