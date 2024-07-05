@@ -2,7 +2,7 @@
 /* alter (3+3) // There occur error coz we're using nodejs not a 
         browser(But when run that code in console we'll get 6 as an output) */
 
-// We should avoid space in js  | Code relatibility should be high
+// We should avoid space in js  | Code relaibility should be high
  console.log(3+3)
 console.log("Shashi")
 
